@@ -8,52 +8,28 @@ body {
     margin: 0;
 }
 
-ul {
-    width: 800px;
-    height: 490px;
+nav ul {
+    border: 2px solid #4D7298;
+    max-width: 700px;
     list-style:none;
     padding: 0;
     margin: 0;
-    border: 2px solid #4D7298;
 }
 
-li {
+nav a:link,
+nav a:visited {
     background-color: #4D7298;
     border: 2px solid #77A6B6;
     border-radius: .5em;
     color: #fff;
     padding: .5em;
-    margin: .5em;
+    display: inline-block;
+    text-decoration: none;
 }
 
-/*DESDE ACA MODIFICAR*/
-/* Modificar los siguientes elementos para que se vea como en la imagen de la consigna */
-ul {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-start;
+/*DESDE ESTE PUNTO MODIFICAR*/
+/*Los elementos deben colocarse en fila, con la misma cantidad de espacio entre cada uno de ellos.*/
+nav ul {
+display:flex;
+justify-content: space-between;
 }
-
-.l1 {
-    order: -3;
-    align-self: center;
-}
-
-.l2 {
-    order: -2;
-    align-self: flex-end;
-}
-
-.l3,.l4 {
-    order: -1 1;
-    align-self: stretch;
-}
-
-.l5 {
-    order: -4;
-    align-self: flex-start;
-    justify-content: flex-start;
-}
-
