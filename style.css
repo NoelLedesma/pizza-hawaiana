@@ -8,28 +8,29 @@ body {
     margin: 0;
 }
 
-nav ul {
-    border: 2px solid #4D7298;
+ul {
     max-width: 700px;
     list-style:none;
     padding: 0;
     margin: 0;
 }
 
-nav a:link,
-nav a:visited {
+li {
     background-color: #4D7298;
     border: 2px solid #77A6B6;
     border-radius: .5em;
     color: #fff;
     padding: .5em;
-    display: inline-block;
-    text-decoration: none;
 }
 
-/*DESDE ESTE PUNTO MODIFICAR*/
-/*Los elementos deben colocarse en fila, con la misma cantidad de espacio entre cada uno de ellos.*/
-nav ul {
-display:flex;
-justify-content: space-between;
+/*MODIFICAR DESDE ACA*/
+/*Los elementos de la lista son todos de diferentes tamaños, pero queremos que se muestren como tres columnas del mismo tamaño, sin importar el contenido de cada elemento*/
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    flex: 1 0 200px;
 }
