@@ -1,0 +1,48 @@
+/*.bona-nova-sc-regular {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bona-nova-sc-bold {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bona-nova-sc-regular-italic {
+  font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.noto-sans-<uniquifier> {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*/
+h1{
+    color:#9a031e;
+  font-family: "Bona Nova SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+h2 {
+    color:#bc4749;
+    font-family:"Bona Nova SC", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+p{
+    color:#001d3d;
+    font-family:"Noto Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+body{
+  background-color:#f5ebe0;
+}
